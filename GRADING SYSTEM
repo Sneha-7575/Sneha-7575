@@ -1,0 +1,15 @@
+Grad = input("enter your grad:")
+
+match Grad:
+    case "A":
+          print("EXCELLENT" )
+    case "B":
+        print("very good " )
+    case "C":
+        print("good")
+    case "D":
+        print("average" )
+    case "F":
+        print("poor"  )
+    case "_":
+        print("default
